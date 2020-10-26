@@ -335,14 +335,15 @@ img {
   font-size: 16px;
   line-height: 47px;
   font-weight: 700;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  border-radius: 7px;; }
   .oneMusic-btn i {
     margin-left: 5px; }
   .oneMusic-btn:hover, .oneMusic-btn:focus {
     font-size: 16px;
     font-weight: 700;
-    background-color: rgba(202, 15, 114, .9) !important;
-    color: #fff; }
+    background-color: red !important;
+    color: #fff !important;}
   .oneMusic-btn.btn-2 {
     background-color: #000000;
     color: #fff; }
@@ -818,6 +819,10 @@ img {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   margin-bottom: 30px; }
+  .single-album-item{
+    height: 300px;
+    box-shadow: 20px solid rgba(202, 15, 114, .9) !important;
+  }
   .single-album img {
     width: 100%; }
   .single-album .album-info {
@@ -1691,8 +1696,8 @@ img {
 }
 
 iframe.iframe{
-  width: 208px;
-  height: 210px;
+  width: 100%;
+  height: 50%;
   padding: 5px;
   border: 5px solid white;
 }
@@ -1722,12 +1727,15 @@ iframe.bio_iframe{
 .carousel-item{
   height: 750px;
   overflow: hidden !important;
+  background-position: center;
+  border: 20px solid black;
 }
 
 .carousel-item img{
   min-height: 100%;
   min-width: 100%;
   overflow: hidden;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1735,3 +1743,12 @@ iframe.bio_iframe{
       height: 350px;
       overflow: hidden !important;
     }}
+
+.socialIcon{
+  font-size: 90px;
+  margin: 60px;
+}
+
+.socialIcon:hover{
+  color:red;
+}
