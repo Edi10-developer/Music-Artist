@@ -99,7 +99,7 @@
     }
 
     $('.carousel').carousel({
-        interval: 2000
+        interval: 1500
       })
 
     // :: 4.0 Masonary Gallery Active Code
