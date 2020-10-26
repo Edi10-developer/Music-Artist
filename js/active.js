@@ -98,6 +98,10 @@
         });
     }
 
+    $('.carousel').carousel({
+        interval: 2000
+      })
+
     // :: 4.0 Masonary Gallery Active Code
     if ($.fn.imagesLoaded) {
         $('.oneMusic-albums').imagesLoaded(function () {
